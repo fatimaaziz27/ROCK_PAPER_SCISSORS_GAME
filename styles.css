@@ -7,7 +7,7 @@
 }
 
 :root {
-  --very-dark-blue: #0a0a23;
+  --very-dark-blue: #00000e;
   --white: #ffffff;
   --yellow: #f1be32;
   --golden-yellow: #feac32;
@@ -25,13 +25,14 @@ h1 {
 
 .btn {
   cursor: pointer;
-  width: 100px;
-  margin: 10px;
+  width: 130px;
+  height: 30px;
+  margin: 20px;
   color: var(--very-dark-blue);
   background-color: var(--golden-yellow);
   background-image: linear-gradient(#fecc4c, #ffac33);
   border-color: var(--golden-yellow);
-  border-width: 3px;
+  border-width: 2px;
 }
 
 .btn:hover {
