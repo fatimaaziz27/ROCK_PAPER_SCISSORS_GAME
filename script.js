@@ -4,6 +4,9 @@ function getRandomComputerResult() {
   return options[randomIndex];
 }
 
+
+
+
 function hasPlayerWonTheRound(player, computer) {
   return (
     (player === "Rock" && computer === "Scissors") ||
@@ -14,6 +17,9 @@ function hasPlayerWonTheRound(player, computer) {
 
 let playerScore = 0;
 let computerScore = 0;
+
+
+
 
 function getRoundResults(userOption) {
   const computerResult = getRandomComputerResult();
@@ -36,6 +42,9 @@ const winnerMsgElement = document.getElementById("winner-msg");
 const optionsContainer = document.querySelector(".options-container");
 const resetGameBtn = document.getElementById("reset-game-btn");
 
+
+
+
 function showResults(userOption) {
   roundResultsMsg.innerText = getRoundResults(userOption);
   computerScoreSpanElement.innerText = computerScore;
@@ -51,6 +60,10 @@ function showResults(userOption) {
   }
 
 };
+
+
+
+
 function resetGame() {
   playerScore = 0;
   computerScore = 0;
