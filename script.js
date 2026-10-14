@@ -1,4 +1,4 @@
-function getRandomComputerResult() {
+0ifunction getRandomComputerResult() {
   const options = ["Rock", "Paper", "Scissors"];
   const randomIndex = Math.floor(Math.random() * options.length);
   return options[randomIndex];
@@ -101,7 +101,15 @@ scissorsBtn.addEventListener("click", function () {
 
 
 
+
+
 //                              OR
+
+
+
+
+
+
 
 
 // const playerScoreSpanElement = document.getElementById("player-score");
